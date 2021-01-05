@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #ecf0f1;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 5rem;
+  font-weight: 300;
+  margin: 5vh 0 0 0;
+  color: #2c3e50;
+}
+
+header h1 span {
+  font-weight: 700;
+}
+
+header h2 {
+  font-size: 1rem;
+  color: #9aa1a5;
+  font-weight: 300;
+}
+
+.form {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#todoInput {
+  width: 100%;
+  height: 60px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #34495e;
+  outline: none;
+  font: 300 28px "Ubuntu", sans-serif;
+  padding: 20px;
+  padding-bottom: 0;
+  color: #34495e;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+li span {
+  float: right;
+  margin-right: 14px;
+  color: #c0392b;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+li span:hover {
+  color: #e74c3c;
+}
+
+.list {
+  width: 95%;
+}
+
+.task {
+  color: #34495e;
+  padding-left: 0.5rem;
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  transition: all 0.3s ease;
+  overflow-x: hidden;
+}
+
+.task:hover {
+  background: rgba(0, 0, 0, 0.03);
+  cursor: pointer;
+}
+
+.task:hover span {
+  opacity: 1;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #bdc3c7;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
+}
+
+article * {
+  grid-column: start / end;
+}
+
+@media (max-width: 8.5in) {
+  article {
+    grid-template-columns: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr;
+  }
+}
+
+.register {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  display: none;
+  top: 80px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.absfloat {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.visible {
+  display: block;
+}
+
+.notvisible {
+  display: none;
+}
+
+.warning {
+  color: #c0392b;
+  font-weight: 600;
+}
+.newForm {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid rgb(194, 54, 187);
+}
+.bodyColor {
+  background-color: #d4d4d4;
+}
+
+@media (max-width: 550px) {
+  header h1 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  label {
+    font-size: 14px;
+  }
+}
