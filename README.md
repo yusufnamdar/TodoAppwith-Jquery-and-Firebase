@@ -5,6 +5,7 @@ This is a project from the Udemy course - [The Advanced Web Developer Bootcamp](
 # Demo
 
 <div align="center">
+  <img src="demo/todolist.gif"/>
 </div>
 
 You can see a complete working example [here](https://todolist-8e432.web.app/). 
