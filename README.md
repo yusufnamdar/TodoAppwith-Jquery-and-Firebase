@@ -9,3 +9,12 @@ This is a project from the Udemy course - [The Advanced Web Developer Bootcamp](
 </div>
 
 You can see a complete working example [here](https://todolist-8e432.web.app/). 
+# Technologies
+
+## Frontend
+
+[jQuery](https://code.jquery.com/)
+
+## Backend
+
+[firebase](https://firebase.google.com/)
